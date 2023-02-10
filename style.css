@@ -143,6 +143,9 @@ input {
   .results-container-div {
     width: 95%;
   }
+  input {
+    width: 90%;
+  }
 }
 
 .budget-end-balance {

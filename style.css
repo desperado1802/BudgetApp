@@ -46,6 +46,10 @@ h1 {
   border-bottom: 2px solid rgb(83, 155, 217);
 }
 
+input {
+  width: 90%;
+}
+
 .btn {
   display: block;
   padding: 5px 10px;

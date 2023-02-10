@@ -58,6 +58,12 @@ h1 {
   font-size: 14px;
 }
 
+.buttons-bottom {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
 .btn:hover {
   background-color: rgb(126, 180, 227);
   color: white;

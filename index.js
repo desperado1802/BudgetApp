@@ -102,7 +102,7 @@ function addExpensesToUI() {
     expenseAmount.innerText = expense.expenseMoney;
     budgetExpensesContainer.appendChild(expenseAmount);
   });
-  expensesTotalAmountEl.innerText = "$" + expensesTotal;
+  expensesTotalAmountEl.innerText = "$" + expensesTotal.toFixed(2);
 
   let balanceAmount =
     JSON.parse(localStorage.getItem("budget-deposit")) - expensesTotal;

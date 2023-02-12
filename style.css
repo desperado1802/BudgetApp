@@ -154,3 +154,9 @@ input {
 .budget-end-balance {
   transition: all 0.3s linear;
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
